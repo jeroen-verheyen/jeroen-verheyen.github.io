@@ -1,0 +1,97 @@
+.sc__inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.zeroPadding {
+  padding: 0 !important;
+}
+
+.scratchable-card.card-content {
+  height: 100% !important;
+  overflow: hidden;
+  max-height: 16.4rem;
+  min-height: 16.4rem;
+  transition: max-height 1s ease-in-out;
+}
+.scratchable-card.card-content.scratched {
+  /*height: auto !important;*/
+  max-height: 600px;
+  transition: max-height 1s ease-in-out;
+}
+
+
+.scratched .sc__wrapper {
+  display: none;
+}
+
+.sc__wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 500;
+}
+
+.sc__container {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  max-width: 300px;
+}
+
+.sc__container > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.sc__container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.sc__infos {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top{
+  position: relative;
+  margin-top: 40px;
+}
+
+.topPosition {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
+.js--sc--container {
+  position: relative;
+}
+
+.sc__inner, .sc__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.scratchable-card {
+  position: relative;;
+}
