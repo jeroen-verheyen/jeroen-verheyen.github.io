@@ -4,11 +4,11 @@
   <customer-journey.task.wachtverzachter.text
     jcr:primaryType="nt:folder"
     jcr:mixinTypes="[sling:Message]"
-    sling:message="Wachtverzachters"/>
+    sling:message=""/>
   <customer-journey.task.wachtverzachter.title
     jcr:primaryType="nt:folder"
     jcr:mixinTypes="[sling:Message]"
-    sling:message="Wil je het wachten verzachten?"/>
+    sling:message="Het wachten beu?"/>
   <customer-journey.intro.greeting.label
         jcr:primaryType="nt:folder"
         jcr:mixinTypes="[sling:Message]"
