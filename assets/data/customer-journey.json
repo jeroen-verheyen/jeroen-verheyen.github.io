@@ -21,6 +21,12 @@
         "type": "APPOINTMENT_PREPARE_PRODUCT_INSTALLATION",
         "status": "ACTIVE",
         "metadata": {}
+      },{
+        "position": 16,
+        "taskowner": "USER",
+        "type": "WACHTVERZACHTER",
+        "status": "ACTIVE",
+        "metadata": {}
       },
       {
         "position": 15,
@@ -30,12 +36,6 @@
         "metadata": {
           "appointment-date": "2020-02-12T08:00:00.0+01:00"
         }
-      },{
-        "position": 16,
-        "taskowner": "USER",
-        "type": "WACHTVERZACHTER",
-        "status": "ACTIVE",
-        "metadata": {}
       },
       {
         "position": 30,
